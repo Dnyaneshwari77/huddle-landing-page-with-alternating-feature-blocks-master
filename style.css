@@ -1,0 +1,410 @@
+/* font style for headding */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* font syle for body containt */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* *font-family: 'Open Sans', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100vw;
+    background-image: url("images/bg-hero-mobile.svg");
+    background-color: hsl(193, 100%, 96%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header nav {
+    width: 100%;
+    max-height: 70px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2rem;
+}
+
+header nav .logo {
+    max-width: 100px;
+}
+
+header nav .logo img {
+    width: 100%;
+}
+
+.try_it_free {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    background-color: white;
+    border-radius: 1rem;
+    width: 7rem;
+    text-align: center;
+
+}
+
+.try_it_free span {
+    display: inline-block;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hro-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0% 10%;
+}
+
+.containt {
+    padding: 10% 0%;
+    /* width: 40%; */
+    overflow: hidden;
+}
+
+.containt blockquote {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.containt p {
+    padding: 7% 0%;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.containt button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.imge_section {
+    /* width: 70%; */
+    padding: 5%;
+}
+
+.imge_section img {
+    width: 100%;
+    height: 100%;
+}
+
+#first {
+    padding-top: 15%;
+}
+
+section {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.card {
+    border-radius: 1rem;
+    padding: 10% 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card blockquote {
+    padding-top: 15%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.card p {
+    padding-top: 10%;
+    padding: 7% 0%;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#last {
+    background-color: white;
+    max-width: 500px;
+}
+
+#last blockquote {
+    font-size: 1.2rem;
+    padding-top: 0%;
+    background-color: white;
+    z-index: 2;
+}
+
+#last button {
+    margin-top: 5%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+#last_Section
+{
+    margin-top: -100px;
+    background-color:hsl(192, 100%, 9%);
+    flex-direction: column;
+}
+
+.holder
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+    font-family: 'Open Sans', sans-serif;
+}
+.first_Column ,.third_column 
+{
+    margin-bottom: 20px;
+}
+.first_Column div
+{
+    display: flex;
+    /* justify-content: center; */
+    margin: 20px 0;
+    align-items: center;
+    gap: 20px;
+    
+}
+#logoimg
+{
+    width: 80%;
+}
+.first_Column div p
+{ 
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.secound_column, .third_column
+{
+    line-height: 2rem;
+}
+.secound_column p ,.third_column p
+{
+    font-size: 0.8rem;
+}
+.forth_column p
+{
+    font-size: 0.7rem;
+}
+/* Desktop view */
+.forth_column div
+{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.forth_column div i
+{
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    border: 2px solid white ;
+    border-radius: 100%;
+}
+.forth_column div i:nth-child(1)
+{
+    padding: 5px;
+}
+
+@media (min-width:375px) {
+    #last
+    {
+        flex-direction: column;
+        padding: 5%;
+    }
+    .card {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 3% 7%;
+        width:90%;
+    }
+
+    .card img {
+        width: 50%;
+        max-width: 400px;
+    }
+    .card div
+    {
+        text-align: justify;
+        width: 40%;
+    }
+    .card div blockquote
+    {
+        padding:0%;
+        text-align: justify;
+    }
+    .card div p
+    {
+        text-align: justify;
+    }
+    #first
+    {
+        padding-top: 10%;
+    }
+    section
+    {
+        padding: 30px 5%;
+    }
+}
+
+@media (min-width:600px)
+{
+    .holder
+    {
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .first_Column
+    {
+        max-width: 40%;
+    }
+   
+}
+@media (min-width:375px) and (max-width:558px)
+{
+    #last
+    {
+        flex-direction: column;
+    }
+    .card
+    {
+        width: 94%;
+    }
+    .card img 
+    {
+        max-width: 200px;
+    }
+}
+
+@media (min-width:375px) and (max-width:741px) {
+    #last
+    {
+        flex-direction: column;
+    }
+    .hro-section {
+        flex-direction: row;
+        padding: 0% 5%;
+    }
+
+    .containt {
+        max-width: 40%;
+    }
+
+    .containt blockquote , .card div blockquote {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .containt p , .card div p {
+        font-size: 0.6rem;
+        text-align: justify;
+    }
+
+    .containt button {
+        max-width: 300px;
+    }
+
+    .imge_section {
+        padding-right: 0;
+    }
+
+    .containt button {
+        padding: 5px;
+        font-size: 0.7rem;
+    }
+    .card 
+    {
+        width: 95%;
+    }
+
+}
+
+@media (min-width:741px) {
+    #last
+    {
+        flex-direction: column;
+    }
+    .hro-section {
+        flex-direction: row;
+        padding: 0% 5%;
+    }
+
+    .containt {
+        max-width: 40%;
+    }
+
+    .containt blockquote {
+        text-align: justify;
+    }
+
+    .containt p {
+        text-align: justify;
+    }
+
+    .containt button {
+        max-width: 300px;
+    }
+}
+
+@media (min-width:471px) and (max-width:900px)
+{
+    #diff
+    {
+        margin-top: -100px;
+    }
+}
+@media (min-width:449px) and (max-width:461px)
+{
+    #diff
+    {
+        margin-top: -80px;
+    }
+}
